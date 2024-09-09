@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-var str = prompt("Enter Your String");
+let str = prompt("Enter Your String");
 
 console.log(str.length);
 
