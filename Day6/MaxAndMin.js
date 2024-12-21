@@ -9,6 +9,7 @@ console.log(max, min);
 let max2 = Number.MIN_VALUE;
 let min2 = Number.MAX_VALUE;
 
+
 for(let i=0;i<arr.length;i++)
 {
     if(arr[i]>max2)
