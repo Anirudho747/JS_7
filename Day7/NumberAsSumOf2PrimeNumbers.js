@@ -17,7 +17,7 @@ let sumOfPrimenumbers = false;
                }
        }
 
-        if(sumOfPrimenumbers===false)
+        if( sumOfPrimenumbers === false)
         {
             console.log("The number is not a sum of prime numbers");
         }

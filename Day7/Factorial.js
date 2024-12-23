@@ -7,8 +7,7 @@ let factorial = 1;
     {
     console.log("Please enter a valid non-negative integer.");
     }
-    else {x``
-
+    else {
         while (num > 1) {
             factorial = factorial * num;
             num--;
