@@ -10,16 +10,16 @@ else
 {
     let target = sum/2;
     let runningSum = 0;
+    // Build the two subarrays manually
+    let subarray1 = [];
+    let subarray2 = [];
 
     // Traverse the array to find the split point
     for (let i = 0; i < array1.length; i++)
     {
-        runningSum += array1[i];
+        runningSum = runningSum+array1[i];
 
         if (runningSum === target) {
-            // Build the two subarrays manually
-            let subarray1 = [];
-            let subarray2 = [];
 
             for (let j = 0; j <= i; j++) {
                 subarray1.push(array1[j]);
