@@ -21,6 +21,7 @@ else
 
         if (runningSum === target) {
 
+
             for (let j = 0; j <= i; j++) {
                 subarray1.push(array1[j]);
             }
