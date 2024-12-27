@@ -15,13 +15,19 @@ else {
     {
         charCount[char] = (charCount[char] || 0) +1;
     }
+      // Displays Object
+      //   console.log(charCount);
 
- //   console.log(charCount);
-
+    //Displays Keys
     // console.log(Object.keys(charCount));
+
+    //Displays Values
     // console.log(Object.values(charCount));
 
- //  console.log(Object.entries(charCount));
+    //Displays in Key Value Format
+    //console.log(Object.entries(charCount));
+
+    //Also Displays in Key Value Format in more organized way
     const charCountObj = Object.entries(charCount);
     let refinedCount = (Object.fromEntries(charCountObj));
     console.log(refinedCount);
